@@ -1,0 +1,12 @@
+#PBS -N PA2-p1
+#PBS -l walltime=00:10:00
+#PBS -l nodes=1:ppn=28
+#PBS -j oe
+
+cd $HOME/PA2-p1
+
+for num in {1..16..1}
+do
+  ./gcc.out $num > gcc_result_${num}.txt
+  ./icc.out $num > icc_result_${num}.txt
+done

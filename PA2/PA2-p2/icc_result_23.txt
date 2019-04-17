@@ -1,0 +1,5 @@
+Num threads = 23
+Matrix Size = 2000
+Base version: 12.59 GFLOPs; Time = 1.27
+Optimized/parallelized version: 103.55 GFLOPs; Time = 0.15
+Passed Correctness Check

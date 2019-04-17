@@ -1,0 +1,9 @@
+Num threads = 4
+List Size = 100000000
+Initial sequence is not sorted in increasing order; # flips =99999999
+After sequential sort, sequence is sorted
+Sequential Sort Rate: 33.4 Mega-Elements/Second; Time = 2.993 sec; a[n/2] = 50000001; 
+
+Reinitialized sequence is not sorted in increasing order; # flips =99999999
+After parallel sort, sequence is sorted
+Parallel Sort Rate: 84.4 Mega-Elements/Second; Time = 1.184 sec; a[N/2] = 50000001; 

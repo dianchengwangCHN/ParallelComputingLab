@@ -1,0 +1,5 @@
+Matrix Size = 1024
+Seq: Approx GFLOPS: 5.5 ; Time = 0.393 sec; cref[n/2][n/2-1] = 253.155987; 
+GPU: Approx GFLOPS: 1174.2 ; Time = 0.002 sec; c[n/2][n/2-1] = 253.155987; 
+Correctness Check for GPU solution:
+No differences found between reference and test versions

@@ -1,0 +1,10 @@
+wang10556@owens-login01 PA1-p1]$ gcc -O3 pa1-p1.c -o gcc.out
+[wang10556@owens-login01 PA1-p1]$ ./gcc.out
+Problem 1 Reference Version: Matrix Size = 4096; 0.55 GFLOPS; Time = 1.222 sec; 
+Problem 1 Optimized Version: Matrix Size = 4096; 2.67 GFLOPS; Time = 0.251 sec; 
+No differences found between base and test versions
+[wang10556@owens-login01 PA1-p1]$ icc -O3 pa1-p1.c -o icc.out
+[wang10556@owens-login01 PA1-p1]$ ./icc.out
+Problem 1 Reference Version: Matrix Size = 4096; 0.60 GFLOPS; Time = 1.112 sec; 
+Problem 1 Optimized Version: Matrix Size = 4096; 5.25 GFLOPS; Time = 0.128 sec; 
+No differences found between base and test versions

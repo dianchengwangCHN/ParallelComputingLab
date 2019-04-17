@@ -1,0 +1,10 @@
+[wang10556@owens-login03 PA1-p3]$ gcc -O3 pa1-p3.c -o gcc.out
+[wang10556@owens-login03 PA1-p3]$ ./gcc.out
+Problem 3 Reference Version: Tensor Size = 128; 0.47 GFLOPS; Time = 1.147 sec; 
+Problem 3 Optimized Version: Tensor Size = 128; 5.07 GFLOPS; Time = 0.106 sec; 
+No differences found between base and test versions
+[wang10556@owens-login03 PA1-p3]$ icc -O3 pa1-p3.c -o icc.out
+[wang10556@owens-login03 PA1-p3]$ ./icc.out
+Problem 3 Reference Version: Tensor Size = 128; 0.47 GFLOPS; Time = 1.144 sec; 
+Problem 3 Optimized Version: Tensor Size = 128; 7.69 GFLOPS; Time = 0.070 sec; 
+No differences found between base and test versions

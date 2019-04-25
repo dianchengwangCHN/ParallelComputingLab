@@ -1,0 +1,3 @@
+Process id=0; Processor id =o0655.ten.osc.edu
+Process id=1; Processor id =o0655.ten.osc.edu
+Enter Message Length Number of spins around ring Communication: Message Size = 32768; 5.74 Gbytes/sec; Time = 0.183 sec; 

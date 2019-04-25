@@ -1,0 +1,1 @@
+Enter Message Length Number of spins around ring Ring Communication: Message Size = 1048576; 1.61 Gbytes/sec; Time = 0.250 sec; 

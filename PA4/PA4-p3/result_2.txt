@@ -1,0 +1,4 @@
+Repeated MV: Sequential Version: Matrix Size = 8192; 2.77 GFLOPS; Time = 0.484 sec; 
+Repeated MV: Parallel Version: Matrix Size = 8192; 5.31 GFLOPS; Time = 0.253 sec; 
+No differences found between base and test versions
+MinRef = 1.000115; MinPar = 1.000115; MaxRef = 1.000129; MaxPar = 1.000129

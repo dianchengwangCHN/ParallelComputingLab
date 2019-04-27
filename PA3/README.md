@@ -3,8 +3,8 @@
 Matrix multiplication acceleration using **CUDA**.
 
 | Version       | Description                                                                                           | Performance (GFLOPS) |
-| ------------- | ----------------------------------------------------------------------------------------------------- | -------------------- |
-| Based version | Sequential martrix multiplication grogram                                                             | 5.5                  |
+| --------------------- | ----------------------------------------------------------------------------------------------------- | --------------------: |
+| Sequential | Sequential martrix multiplication grogram                                                             | 5.5                  |
 | PA3-v1        | Simple parallel version without using shared memory.                                                  | 248.6                |
 | PA3-v2        | Utilizing shared memmory to speed up performance.                                                     | 984.2                |
 | PA3-v3        | 2-way loop unrolling along i to improve instruction level parallelism and reduce memory access times. | 1174.2               |

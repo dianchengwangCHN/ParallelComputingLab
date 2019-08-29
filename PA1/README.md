@@ -1,6 +1,6 @@
 ## Lab1
 
-Apply loop permutation, loop unrolling and loop tiling to imporve cache locality
+Apply loop permutation, loop unrolling and loop tiling to improve cache locality
 
 
 | Directory | Compiled with gcc    | Compiled with icc       |
